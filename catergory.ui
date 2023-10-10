@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>catergory</class>
+ <widget class="QDialog" name="catergory">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>512</width>
+    <height>505</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>60</y>
+     <width>331</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="title">
+    <string>Choose caterory</string>
+   </property>
+   <widget class="QPushButton" name="apti_btn">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>50</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white;
+    border-style: outset;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 3px;
+    font: bold 18px;
+    padding: 3px;
+color:black;
+};</string>
+    </property>
+    <property name="text">
+     <string>Aptitude</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="verbal_btn">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>130</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white;
+    border-style: outset;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 3px;
+    font: bold 18px;
+    padding: 3px;
+color:black;
+};</string>
+    </property>
+    <property name="text">
+     <string>Verbal</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tech_btn">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>200</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white;
+    border-style: outset;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 3px;
+    font: bold 18px;
+    padding: 3px;
+color:black;
+};</string>
+    </property>
+    <property name="text">
+     <string>Technical Skills</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="core_btn">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>270</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background-color: white;
+    border-style: outset;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 3px;
+    font: bold 18px;
+    padding: 3px;
+color:black;
+};</string>
+    </property>
+    <property name="text">
+     <string>Core</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
